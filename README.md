@@ -1,0 +1,3 @@
+# Express.js Async Error Handling Bug
+
+This repository demonstrates a common error in Express.js applications related to asynchronous operations and error handling.  The bug occurs when an error is thrown within an asynchronous function (in this case, `setTimeout`), which might not be captured by the standard Express error middleware. This can lead to application instability or unexpected behavior. The solution showcases how to appropriately handle these asynchronous errors using Promises or async/await.
